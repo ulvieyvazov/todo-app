@@ -1,11 +1,13 @@
-import {React} from "react";
+import { React } from "react";
 import Todo from "./components/Todo";
+import Home from "./components/Home/Home";
 
 
 function App() {
   return (
     <>
-      <Todo/>
+      <Home />
+      <Todo />
     </>
   )
 }
